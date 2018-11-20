@@ -1,0 +1,28 @@
+.header{
+    display:flex;
+    cursor: pointer;
+
+}
+
+.logo{
+    display: flex;
+    padding:.5rem 2rem;
+}
+
+.navigation {
+    display: flex;
+    padding: 1.5rem;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline;
+    padding: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.navigation ul li:hover, li:active {
+   color: #00D09B;
+}
